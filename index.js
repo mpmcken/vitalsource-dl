@@ -9,7 +9,7 @@ const fsRelativePath = './epub/'
 
 // Cookie value sent to jigsaw.vitalsource.com from the browser
 // including: reese84 + jigsaw_session
-const globalCookieVal = ``
+const globalCookieVal = `oQbQgjcKAYPalGgL%2FRgRpiGe9yuvrCQ8Jiqt1SvBzUW7laYUGq8DCVs2Ngl%2Bd%2B%2FLzyuBB0exHNxYyxlpq8sBqUPLjY1bUKh1t1aOvZnvR%2FWaslibpqhWh6IwFCDBnLCEEP9SMypYJT%2FurmtyS5wCsUjh%2BOgL3%2BnAZ3UneeXlBwPO3JPQvg1sQUV0LGQGEpDA6frFKiHzT2Q7Ghn4KLiBuq7fvppKCtonIfpTpTqUx0tZDXXocPEF5VYaKG9jVDmhepW7AmTolpfLe0aLEfK5YQUkBVCW%2B4ORu4zdAxNwqIVZG%2Bhc2Qi4hUuvVehLkLT2npKd0vG2QX2kcgvX9oGhtgZTRrY3kmJDGGREj2bkMXewB8sOwYryWuWkNcuMzrvja%2BJxRoXNsxqT7g%3D%3D--DM%2FfIR1lc9YZhx96--1ETjxVC9QboGmRqSXh4FSw%3D%3D`
 
 const writeIntoFS = async (filepath, contents) => {
   const file = path.resolve(fsRelativePath, filepath)
